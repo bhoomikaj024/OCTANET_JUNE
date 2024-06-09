@@ -1,0 +1,113 @@
+*{
+    /* background-color: #987070; */
+    margin: 0;
+    font-family: 'Cookie' 'DM Serif Text', 'Times New Roman', Times, serif;
+}
+.header{
+    background-color: rgba(248, 238, 238, 1);
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.header a{
+    background-color: rgba(248, 238, 238, 0);
+
+}
+.header a:hover{
+    background-color: #3C0742;
+    color: antiquewhite;
+    padding: 4px;
+    width: 6em;
+    text-align: center;
+    border-radius: 2em;
+}
+.forms{
+    background: rgba(248, 238, 238, 1);
+    border-radius: 1.2em;
+}
+input{
+    background-color: rgba(248, 238, 238, 1);
+    border-radius: 1.2em;
+    border-color: #987070;
+    font-size: 20px;
+}
+input::placeholder{
+    color: #987070;
+    font-weight: bold;
+    text-align: center;
+}
+.ri-search-line{
+    background-color: rgba(248, 238, 238, 1);
+    background-size: cover;
+    font-size: 1.3em;
+    text-align: end;
+    
+}
+input:hover{
+    background-color: #3C0742;
+}
+input:hover::placeholder{
+    color: antiquewhite;
+}
+.text1{
+
+    text-align: center;
+    font-size: 70px;
+    color: #3C0742;
+    font-family: DM Serif Text;
+    text-shadow:
+    1px 1px 2px black,
+    0 0 1em #FCFFE0,
+    0 0 0.2em #F5DAD2;
+    
+}
+
+h1{
+    background-image: url("\Home.jpeg");
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+}
+.content{
+    background-image: url("perfume-making-hero.jpeg");
+    width: 100%;
+    height: 70vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content .text{
+    font-size: 50px;
+    padding-left: 8em; 
+    padding-top: 0.7em;
+    font-family: "Cookie", cursive;
+    color: #34262B;
+}
+.row{
+    display: flex;
+    
+    margin-top: 13em;
+    background-color: rgba(245, 245, 245, 0.7);
+    font-size: 25px;
+    justify-content: space-between;
+    padding: 1.5em;
+}
+ul{
+    list-style: none;
+}
+.row a{
+    align-content: space-between;
+    color: #34262B;
+}
+/* .content .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+    
+}
+.footer a{
+    
+    background-color: rgba(255, 255, 255, 0.7);
+} */
